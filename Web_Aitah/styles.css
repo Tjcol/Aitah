@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: #F8F8FF; */
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 15px 105px;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: black;
+    font-weight: bold;
+}
+nav .yata a img{
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a:hover{
+    color: #D99B4E;
+}
+section .home_page{
+    object-fit: fill;
+    width: 100vw;
+}
+.home-look{
+    position: relative;
+}
+.home-look .to-left{
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    font-size: 33px;
+    padding: 0px 70px;
+    color: white;
+}
+.yelpi{
+    font-size: 15px;
+    margin: 30px 0px;
+    padding: 1em 1em;
+    border-radius: 3em;
+    border: none;
+    background-color: #D99B4E;
+}
+.yelpi a{
+    text-decoration: none;
+    color: #20338A;
+}
+.home-look .to-right{
+    position: absolute;
+    right: 0px;
+    top: 21.3%;
+    padding: 0px 70px;
+}
+.highlight{
+    display: inline-flex;
+    position: relative;
+    margin: 10% 5%;
+}
+.highlight-text{
+    padding: 0px 5%;
+    font-size: 25px;
+}
+.the-blue{
+    font-size: 15px;
+    background-color: #20338A;
+    border: none;
+    border-radius: 3em;
+    padding: 1em 1em;
+    margin: 40px 0px;
+}
+.the-blue a{
+    text-decoration: none;
+    color: white;
+}
+.align-to-center{
+    text-align: center;
+    font-size: 43px;
+    line-height: 58px;
+}
+.highlight-gallery{
+    position: relative;
+    margin: 2.5% 5%;
+    display: inline-flex;
+}
+.sec-space{
+    padding: 0px 2.2%;
+}
+.pagin-side{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 25px;
+}
+/* .pagin-side li{
+    display: inline-block;
+} */
+.pagin-side li a{
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 0.5em;
+    margin: 0px 5px;
+    color: black;
+}
+.pagin-side li a:hover{
+    background-color: #20338A;
+    color: white;
+}
+.pagin-side li a:active{
+    background-color: #20338A;
+    color: white;
+}
+.spons-blu{
+    text-align: center;
+    color: white;
+    background-color: #20338A;
+    padding: 8rem;
+    font-size: 25px;
+    object-fit: fill;
+    width: 100vw;
+}
+.sponsors-section{
+    display: inline-flex;
+    margin: 10% 5%;
+}
+.sponsors-section div{
+    padding: 0px 8px;
+}
+.sponsn-column li{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.sponsn-column li p{
+    font-size: 20px;
+}
+.sponsn-column li h3{
+    font-size: 40px;
+}
+.icon-line{
+    display: flex;
+}
+.icon-line div span{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.chat-shift{
+    margin-left: 50px;
+}
+.icon-line div img{
+    position: relative;
+    top: 5px;
+}
+.sponsn-column li button a{
+    text-decoration: none;
+    border: 2px solid;
+    border-color: #20338A;
+    color: #20338A;
+    font-size: 15px;
+    padding: 1em 2.5em;
+    border-radius: 3em;
+    font-weight: bold;
+}
+.sponsn-column li button{
+    border: none;
+    background-color: white;
+    padding-top: 25px;
+}
+.sponsn-column li button a:hover{
+    color: white;
+    background-color: #20338A;
+}
+footer{
+    background-color: #20338A;
+}
+.border-rightline{
+    border-right: 3px solid white;
+    padding-right: 8px
+}
+.space-toleft{
+    padding-left: 7px;
+}
+.footer-section{
+    display: inline-flex;
+}
+footer{
+    padding: 5% 5%;
+}
+.footer-section div{
+    padding-right: 10rem;
+    padding-bottom: 4rem;
+}
+.footer-section div ul{
+    list-style-type: none;
+}
+.footer-section div ul span{
+    color: white;
+    padding-left: 10px;
+}
+.footer-section div ul li{
+    margin-top: 20px;
+}
+.footer-section div ul img{
+    position: relative;
+    top: 3px;
+}
+.white-table ul li h4{
+    color: white;
+    font-size: 17px;
+}
+.white-table ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.pad-down{
+    padding-bottom: 4rem;
+}
+.white-table{
+    position: relative;
+    top: 100px;
+}
+.cop-part{
+    color: white;
+}
+footer .cop-part{
+    padding-top: 3rem;
+    /* margin-left: 5%; */
+}
+footer section{
+    padding-bottom: 4rem;
+}
+footer .cop-part span a{
+    text-decoration: none;
+    color: white;
+}
+footer .cop-part{
+    display: flex;
+    justify-content: space-between;
+}
+footer .cop-part span a{
+    padding-left: 3rem;
+}
